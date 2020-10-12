@@ -32,7 +32,7 @@ html {
 }
 
 body {
-  background-color: rgb(1, 10, 19);
+  background-color: rgb(1, 13, 25);
 }
 
 h1 {
@@ -72,6 +72,14 @@ nav {
 .NavSelected {
   color: rgb(240, 230, 210);
   text-decoration: underline;
+}
+
+.HeaderText {
+  display: flex;
+}
+
+.HeaderText img {
+  align-self: center;
 }
 /*
 Text = rgb(205, 190, 145)
