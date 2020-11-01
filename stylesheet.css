@@ -28,11 +28,26 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 300%;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
 }
 
 body {
   background-color: rgb(1, 13, 25);
+}
+
+main {
+  border-top: 1px solid;
+  border-color: rgb(205, 190, 145);
+}
+
+.pImageRight {
+  padding-left: 0.7rem;
+  padding-bottom: 0.7rem;
+  width: 24rem;
+  height: 13.5rem;
+  float: right;
 }
 
 h1 {
@@ -65,8 +80,9 @@ nav a:hover {
 
 nav {
   display: flex;
-  width: 70%;
+  width: 22rem;
   justify-content: space-between;
+  padding-bottom: 0.1rem;
 }
 
 .NavSelected {
@@ -80,14 +96,16 @@ nav {
 
 .HeaderText img {
   align-self: center;
+  width: 3.5rem;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
+  align-content: center;
   border-top: 1px solid;
   border-color: rgb(205, 190, 145);
-  height: 50px;
+  height: 2rem;
 }
 
 footer p {
@@ -102,8 +120,9 @@ footer div {
 }
 
 footer div img {
+  margin-right: 0.1em;
+  width: 0.5rem;
   align-self: center;
-  margin-right: 2px;
 }
 /*
 Header text rgb(190, 148, 75)
