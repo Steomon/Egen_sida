@@ -123,6 +123,16 @@ footer p {
   align-self: center;
 }
 
+footer p a {
+  font-size: 0.4rem;
+  color: rgb(205, 190, 145);
+  font-family: "BeaufortforLOL-Bold";
+}
+
+footer p a:hover {
+  color: rgb(240, 230, 210);
+}
+
 footer div {
   display: flex;
   justify-content: left;
